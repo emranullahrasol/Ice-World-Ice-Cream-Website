@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Emranullah Rasoli" />
+    <meta
+      name="description"
+      content="Enjoy delicious, creamy ice cream in a variety of flavors! Explore our menu and treat yourself to the sweetest frozen delights."
+    />
+    <meta property="og:title" content="Ice cream | emranullahrasoli" />
+    <meta name="theme-color" content="#ed8613" />
+    <title>Ice cream | emranullahrasoli</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="#" class="nav__brand"
+          >Ice <span class="nav__brand--primary">World</span></a
+        >
+        <svg
+          class="icon icon--white icon--small nav__toggler"
+          id="nav__toggler"
+        >
+          <use xlink:href="images/sprite.svg#bars"></use>
+        </svg>
+        <ul class="list" id="list">
+          <li class="list__item"><a href="#home">Home</a></li>
+          <li class="list__item"><a href="#popular">Popular</a></li>
+          <li class="list__item"><a href="#most-selling">Categories</a></li>
+          <li class="list__item"><a href="#contact-us">Contact Us</a></li>
+        </ul>
+        <div class="nav__icons">
+          <svg class="icon icon--smaller">
+            <use xlink:href="images/sprite.svg#bell"></use>
+          </svg>
+          <svg class="icon icon--smaller">
+            <use xlink:href="images/sprite.svg#shopping"></use>
+          </svg>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="block hero" id="home">
+        <div class="grid grid--1x2" data-aos="fade-right">
+          <div class="hero__content">
+            <h1 class="hero__heading">
+              Welcome To Our
+              <span class="hero__color--primary">Ice Cream</span> World
+            </h1>
+            <p class="hero__tagline">
+              Indulge in a delightful journey of flavors! Discover creamy,
+              delicious ice creams crafted to bring joy to every scoop. Welcome
+              to your sweet escape!
+            </p>
+            <button class="btn btn--primary">buy now</button>
+            <div class="hero__icons">
+              <a href="http://facebook.com/emranullahrasoli">
+                <span class="icon-container">
+                  <svg class="icon icon--white icon--smaller">
+                    <use xlink:href="images/sprite.svg#facebook"></use>
+                  </svg>
+                </span>
+              </a>
+
+              <a href="http://twitter.com/emranullahrasol">
+                <span class="icon-container">
+                  <svg class="icon icon--white icon--smaller">
+                    <use xlink:href="images/sprite.svg#twitter"></use>
+                  </svg>
+                </span>
+              </a>
+
+              <a href="http://pinterest.com/emranullahrasoli">
+                <span class="icon-container">
+                  <svg class="icon icon--white icon--smaller">
+                    <use xlink:href="images/sprite.svg#pinterest"></use>
+                  </svg>
+                </span>
+              </a>
+
+              <a href="phone: +93789936678">
+                <span class="icon-container">
+                  <svg class="icon icon--white icon--smaller">
+                    <use xlink:href="images/sprite.svg#phone"></use>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="hero__image" data-aos="zoom-in-left">
+            <img src="images/header.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="block block--popular" id="popular" data-aos="fade-left">
+        <div class="block__header">
+          <h3 class="block__heading">Popular Ice-Cream</h3>
+        </div>
+        <div class="grid grid--1x3">
+          <div class="plan">
+            <div class="plan__header">
+              <img class="plan__image" src="images/popular-1.png" alt="" />
+            </div>
+            <div class="plan__content">
+              <h4 class="plan__name">Mongo Tango Sorbet</h4>
+              <span class="plan__price">$5.49</span>
+            </div>
+          </div>
+          <div class="plan">
+            <div class="plan__header">
+              <img class="plan__image" src="images/popular-2.png" alt="" />
+            </div>
+            <div class="plan__content">
+              <h4 class="plan__name">Chocolate Fudge Delight</h4>
+              <span class="plan__price">$5.99</span>
+            </div>
+          </div>
+          <div class="plan">
+            <div class="plan__header">
+              <img class="plan__image" src="images/popular-3.png" alt="" />
+            </div>
+            <div class="plan__content">
+              <h4 class="plan__name">Strawberry Swirl Bliss</h4>
+              <span class="plan__price">$4.99</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="block most-selling--block" id="most-selling">
+        <div class="block__header" data-aos="fade-down">
+          <h3 class="block__heading">Most Selling ice-Cream</h3>
+          <p class="block__description">
+            Discover our crowd favorites! These ice creams are loved by everyone
+            and have become the top picks for their irresistible flavors and
+            creamy textures.
+          </p>
+        </div>
+        <div class="most-selling" data-aos="fade-left">
+          <div class="grid grid--1x2">
+            <div class="most-selling__img">
+              <img src="images/discover-1.jpg" alt="" />
+            </div>
+            <div class="most-selling__content">
+              <h4 class="most-selling__heading">Double Chocolate Crunch</h4>
+              <p class="most-selling__description">
+                Dive into a chocolate lover's paradise with our Double Chocolate
+                Crunch. This rich and creamy ice cream is made with premium
+                cocoa and blended with crunchy chocolate chunks to deliver a
+                perfect balance of smoothness and texture.
+              </p>
+              <span class="most-selling__price"
+                >$6.99 <sub class="most-selling__pre-price">$9.99</sub></span
+              >
+              <button class="btn btn--primary">buy now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="most-selling" data-aos="fade-right">
+          <div class="grid grid--1x2">
+            <div class="most-selling__content">
+              <h4 class="most-selling__heading">Strawberry Cheesecake Bliss</h4>
+              <p class="most-selling__description">
+                Experience the perfect harmony of fruity and creamy with our
+                Strawberry Cheesecake Bliss. Every spoonful feels like enjoying
+                a slice of fresh strawberry cheesecake, making it an
+                irresistible dessert.
+              </p>
+              <span class="most-selling__price"
+                >$8.99 <sub class="most-selling__pre-price">$5.99</sub></span
+              >
+              <button class="btn btn--primary">buy now</button>
+            </div>
+            <div class="most-selling__img">
+              <img src="images/discover-2.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="most-selling" data-aos="fade-left">
+          <div class="grid grid--1x2">
+            <div class="most-selling__img">
+              <img src="images/discover-3.jpg" alt="" />
+            </div>
+            <div class="most-selling__content">
+              <h4 class="most-selling__heading">Classic Cookies and Cream</h4>
+              <p class="most-selling__description">
+                Savor the timeless charm of our Classic Cookies and Cream ice
+                cream. Made with velvety smooth vanilla ice cream, it is
+                generously packed with chunks of chocolate cookies to create a
+                delightful crunch in every bite.
+              </p>
+              <span class="most-selling__price"
+                >$5.49 <sub class="most-selling__pre-price">$10.49</sub></span
+              >
+              <button class="btn btn--primary">buy now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="delivery" data-aos="fade-left">
+          <div class="grid grid--1x2">
+            <div class="delivery__content">
+              <h3 class="delivery__heading">
+                Get Yummy Ice-Cream at a Reasonable Price
+              </h3>
+              <p class="delivery__description">
+                Treat yourself to delightful ice creams without breaking the
+                bank! Enjoy premium quality and mouthwatering flavors at prices
+                that make every scoop worth it.
+              </p>
+              <div class="grid grid--1x3">
+                <div class="card">
+                  <header class="card__image">
+                    <img src="images/banner-1.png" alt="" />
+                  </header>
+                  <div class="card__body">
+                    <span class="card__description">Fresh & Natural</span>
+                  </div>
+                </div>
+                <div class="card">
+                  <header class="card__image">
+                    <img src="images/banner-2.png" alt="" />
+                  </header>
+                  <div class="card__body">
+                    <span class="card__description">Quick Packaging</span>
+                  </div>
+                </div>
+                <div class="card">
+                  <header class="card__image">
+                    <img src="images/banner-3.png" alt="" />
+                  </header>
+                  <div class="card__body">
+                    <span class="card__description">Fast Delivery</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="delivery__image"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="callout callout--pink" id="contact-us" data-aos="slide-up">
+        <div class="callout__content">
+          <h4 class="callout__heading">Subscribe For Discounts</h4>
+          <p class="callout__description">
+            Don't miss out on sweet deals! Subscribe now to receive exclusive
+            discounts and updates on our latest ice cream flavors and special
+            offers.
+          </p>
+          <div class="input-group">
+            <input type="text" class="input" placeholder="type your email" />
+            <button class="btn btn--primary">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer footer--gray" data-aos="fade-right">
+      <div class="grid grid--1x3">
+        <a href="#" class="nav__brand footer__brand"
+          >Ice <span class="footer__brand--primary">World</span></a
+        >
+
+        <ul class="list">
+          <li class="list__item"><a href="#home">Home</a></li>
+          <li class="list__item"><a href="#popular">Popular</a></li>
+          <li class="list__item"><a href="#most-selling">Categories</a></li>
+          <li class="list__item"><a href="#contact-us">Contact Us</a></li>
+        </ul>
+
+        <div class="hero__icons">
+          <a href="http://facebook.com/emranullahrasoli">
+            <span class="icon-container">
+              <svg class="icon icon--white icon--smaller">
+                <use xlink:href="images/sprite.svg#facebook"></use>
+              </svg>
+            </span>
+          </a>
+
+          <a href="http://twitter.com/emranullahrasol">
+            <span class="icon-container">
+              <svg class="icon icon--white icon--smaller">
+                <use xlink:href="images/sprite.svg#twitter"></use>
+              </svg>
+            </span>
+          </a>
+
+          <a href="http://pinterest.com/emranullahrasoli">
+            <span class="icon-container">
+              <svg class="icon icon--white icon--smaller">
+                <use xlink:href="images/sprite.svg#pinterest"></use>
+              </svg>
+            </span>
+          </a>
+
+          <a href="phone: +93789936678">
+            <span class="icon-container">
+              <svg class="icon icon--white icon--smaller">
+                <use xlink:href="images/sprite.svg#phone"></use>
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+      <p class="copyright">
+        Copyright &copy; 2025 Web Design
+        <a href="http://github.com/emranullahrasol" class="author"
+          >Emranullah Rasoli</a
+        >, All rights reserved
+      </p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
